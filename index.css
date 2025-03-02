@@ -575,15 +575,79 @@ h3.profession{
     margin-bottom: 30px;
 }
 .portfolio .portfolio-item-inner {
+    position: relative;
     border: 6px solid var(--bg-black-100);
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
 }
+.portfolio .portfolio-item-inner .portfolio-img {
+    position: relative;
+}
 .portfolio .portfolio-item-inner .portfolio-img img{
     width: 100%;
     aspect-ratio: 4/3;
     display: block;
+    transition: transform 0.3s ease;
+}
+.portfolio-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(57, 64, 51, 0.9);
+    color: var(--text-yellow-900);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+}
+.portfolio-item-inner:hover .portfolio-overlay {
+    opacity: 1; 
+}
+
+.portfolio-item-inner:hover .portfolio-img img {
+    transform: scale(1.05); 
+}
+
+.portfolio-overlay h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text-yellow-900);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.portfolio-overlay p {
+    font-size: 14px;
+    color: var(--text-yellow-700);
+    text-align: center;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.portfolio-buttons {
+    display: flex;
+    gap: 10px; 
+}
+
+.portfolio-buttons .btn {
+    font-size: 14px;
+    padding: 8px 20px; 
+    background: var(--skin-color);
+    color: var(--text-yellow-700);
+    border-radius: 20px; 
+    transition: all 0.3s ease;
+}
+
+.portfolio-buttons .btn:hover {
+    transform: scale(1.05);
+    background: var(--text-yellow-900); 
+    color: var(--bg-black-100);
 }
 /* contact */
 .contact-title {
