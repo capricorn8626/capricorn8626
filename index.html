@@ -1,27 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./color-1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <link rel="shortcut icon" type="images/png" href="./images/icon.ico">
+    <link rel="shortcut icon" type="images/jpg" href="/images/icon.jpg">
     <title>Phan Viet Toan | Portfolio | Software Engineer</title>
 </head>
+
 <body>
     <!-- Main Container Start -->
+    <!-- Loading Spinner -->
+    <div id="loader" class="loader">
+        <div class="spinner"></div>
+    </div>
+    <!-- Toast messages -->
+    <div id="toast-container" class="toast-container"></div>
     <div class="main-container">
         <!-- Aside Start -->
-         <div class="aside">
+        <div class="aside">
             <div class="logo">
-                <a href="#home"><span>P</span>han <span>V</span>iet <span>T</span>oan</a>
+                <a href="#home" class="home-btn"><span>P</span>han <span>V</span>iet <span>T</span>oan</a>
             </div>
             <div class="social-icons">
-                <a href="https://www.facebook.com/pvt0601/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>
-                <a href="mailto:pvt8626@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-envelope"></i></a>
-                <a href="https://www.linkedin.com/in/capricorn8626" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/capricorn8626" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.facebook.com/pvt0601/" target="_blank" rel="noopener noreferrer"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <a href="mailto:pvt8626@gmail.com" target="_blank" rel="noopener noreferrer"><i
+                        class="fa fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/capricorn8626" target="_blank" rel="noopener noreferrer"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/capricorn8626" target="_blank" rel="noopener noreferrer"><i
+                        class="fa-brands fa-github"></i></a>
             </div>
             <div class="nav-toggler">
                 <span></span>
@@ -33,37 +45,41 @@
                 <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
                 <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
             </ul>
-         </div>
+        </div>
         <!-- Aside End -->
-         <!-- Main Content Start-->
-          <div class="main-content">
+        <!-- Main Content Start-->
+        <div class="main-content">
             <!-- Home Section Start -->
-             <section class="home section" id="home">
+
+            <section class="home section" id="home">
                 <div class="container">
                     <div class="row">
                         <div class="home-info padd-15">
                             <h3 class="hello">Hello, my name is <span class="name">Phan Viet Toan</span></h3>
                             <h3 class="profession">I'm a <span class="typing"></span></h3>
-                            <p>I am studying software engineering, and my expertise is to create websites, applications, develop video-games and many more...</p>
+                            <p>I am studying software engineering, and my expertise is to create websites,
+                                applications,
+                                develop video-games and many more...</p>
                             <a href="#contact" class="btn hire-me">Hire Me</a>
                         </div>
                         <div class="home-img padd-15">
                             <img src="images/hero.jpg" alt="my photo">
                         </div>
                     </div>
-                    <div class="grid grid-1">
+                    <!-- <div class="grid grid-1">
                         <figure>
                             <img src="images/sich.png" alt="">
                         </figure>
                         <figure>
                             <img src="images/3.png" alt="" class="autoRotate">
                         </figure>
-                    </div>
+                    </div> -->
                 </div>
-             </section>
+            </section>
+
             <!-- Home Section End -->
             <!-- About Section Start -->
-             <section class="about section " id="about">
+            <section class="about section " id="about">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -74,8 +90,14 @@
                         <div class="about-content padd-15">
                             <div class="row autoShow">
                                 <div class="about-text padd-15">
-                                    <h3>I'm Phan Viet Toan and a fourth-year <span>Software Engineer</span> student at Saigon University in Vietnam</h3>
-                                    <p>I am passionate about technology and have a strong foundation in programming, problem-solving, software development and game development. I am currently seeking internship opportunities to further enhance my skills and gain hands-on experience in the software development field.</p>
+                                    <h3>I'm Phan Viet Toan and a fourth-year <span>Software Engineer</span> student
+                                        at
+                                        Saigon University in Vietnam</h3>
+                                    <p>I am passionate about technology and have a strong foundation in programming,
+                                        problem-solving, software development and game development. I am currently
+                                        seeking internship opportunities to further enhance my skills and gain
+                                        hands-on
+                                        experience in the software development field.</p>
                                 </div>
                             </div>
                             <div class="row ">
@@ -88,19 +110,23 @@
                                             <p>Age : <span>21</span></p>
                                         </div>
                                         <div class="info-item padd-15">
-                                            <p>Facebook : <a href="https://www.facebook.com/pvt0601" target="_blank" rel="noopener noreferrer"><span>click-here</span></a></p>
+                                            <p>Facebook : <a href="https://www.facebook.com/pvt0601" target="_blank"
+                                                    rel="noopener noreferrer"><span>click-here</span></a></p>
                                         </div>
                                         <div class="info-item padd-15">
                                             <p>Email : <span>pvt8626@gmail.com</span></p>
                                         </div>
                                         <div class="info-item padd-15">
-                                            <p>GitHub : <a href="https://github.com/capricorn8626" target="_blank" rel="noopener noreferrer"><span>click-here</span></a></p>
+                                            <p>GitHub : <a href="https://github.com/capricorn8626" target="_blank"
+                                                    rel="noopener noreferrer"><span>click-here</span></a></p>
                                         </div>
                                         <div class="info-item padd-15">
                                             <p>Freelance : <span>Available</span></p>
                                         </div>
                                         <div class="info-item padd-15">
-                                            <p>LinkedIn : <a href="https://www.linkedin.com/in/capricorn8626/" target="_blank" rel="noopener noreferrer"><span>click-here</span></a></p>
+                                            <p>LinkedIn : <a href="https://www.linkedin.com/in/capricorn8626/"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"><span>click-here</span></a></p>
                                         </div>
                                         <div class="info-item padd-15">
                                             <p>Phone : <span>+84 817 868 253</span></p>
@@ -111,61 +137,117 @@
                                         <div class="info-item padd-15">
                                             <p>Nationality : <span>Viet Nam</span></p>
                                         </div>
-                                       
+
                                     </div>
                                     <div class="row autoShow">
                                         <div class="buttons padd-15">
-                                            <a href="#" class="btn">Download CV</a>
+                                            <a href="Resume.pdf" target="_blank" class="btn">Download CV</a>
                                             <a href="#contact" class="btn hire-me">Hire Me</a>
                                         </div>
-                                    </div> 
+                                    </div>
                                 </div>
                                 <div class="skills padd-15">
-                                    <div class="row autoShow">
-                                        <div class="skill-item padd-15">
-                                            <h5>JS</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 46%;"></div>
-                                                <div class="skill-percent">46%</div>
+                                    <h3 class="title">Skills</h3>
+                                    <div class="slider" style="
+                                    --width: 150px;
+                                    --height: 150px;
+                                    --quantity: 15;
+                                    ">
+                                        <div class="list">
+                                            <div class="item" style="--position:1;">
+                                                <div class="card shadow-dark">
+                                                    <img src="images/slider_1.svg" alt="">
+                                                    <p class="skill-name">C</p>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="skill-item padd-15">
-                                            <h5>PHP</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 36%;"></div>
-                                                <div class="skill-percent">36%</div>
+                                            <div class="item" style="--position:2;">
+                                                <div class="card shadow-dark">
+                                                    <img src="images/slider_2.svg" alt="">
+                                                    <p class="skill-name">C++</p>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="skill-item padd-15">
-                                            <h5>CSS</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 40%;"></div>
-                                                <div class="skill-percent">40%</div>
+                                            <div class="item" style="--position:3;">
+                                                <div class="card shadow-dark">
+                                                    <img src="images/slider_3.svg" alt="">
+                                                    <p class="skill-name">C#</p>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="skill-item padd-15">
-                                            <h5>HTML</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 50%;"></div>
-                                                <div class="skill-percent">50%</div>
+                                            <div class="item" style="--position:4;">
+                                                <div class="card shadow-dark">
+                                                    <img src="images/slider_4.svg" alt="">
+                                                    <p class="skill-name">Html</p>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="skill-item padd-15">
-                                            <h5>JAVA</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 60%;"></div>
-                                                <div class="skill-percent">60%</div>
+                                            <div class="item" style="--position:5;">
+                                                <div class="card shadow-dark">
+                                                    <img src="images/slider_5.svg" alt="">
+                                                    <p class="skill-name">Css</p>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="skill-item padd-15">
-                                            <h5>PYTHON</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 80%;"></div>
-                                                <div class="skill-percent">80%</div>
+                                            <div class="item" style="--position:6;">
+                                                <div class="card shadow-dark">
+                                                    <img src="images/slider_6.svg" alt="">
+                                                    <p class="skill-name">Javascript</p>
+                                                </div>
+                                            </div>
+                                            <div class="item" style="--position:7;">
+                                                <div class="card shadow-dark">
+                                                    <img src="images/slider_7.svg" alt="">
+                                                    <p class="skill-name">Typescript</p>
+                                                </div>
+                                            </div>
+                                            <div class="item" style="--position:8;">
+                                                <div class="card shadow-dark">
+                                                    <img src="images/slider_8.svg" alt="">
+                                                    <p class="skill-name">Tailwind CSS</p>
+                                                </div>
+                                            </div>
+                                            <div class="item" style="--position:9;">
+                                                <div class="card shadow-dark">
+                                                    <img src="images/slider_9.svg" alt="">
+                                                    <p class="skill-name">ReactJS</p>
+                                                </div>
+                                            </div>
+                                            <div class="item" style="--position:10;">
+                                                <div class="card shadow-dark">
+                                                    <img src="images/slider_10.svg" alt="">
+                                                    <p class="skill-name">NextJS</p>
+                                                </div>
+                                            </div>
+                                            <div class="item" style="--position:11;">
+                                                <div class="card shadow-dark">
+                                                    <img src="images/slider_11.svg" alt="">
+                                                    <p class="skill-name">PHP</p>
+                                                </div>
+                                            </div>
+                                            <div class="item" style="--position:12;">
+                                                <div class="card shadow-dark">
+                                                    <img src="images/slider_12.svg" alt="">
+                                                    <p class="skill-name">Java</p>
+                                                </div>
+                                            </div>
+                                            <div class="item" style="--position:13;">
+                                                <div class="card shadow-dark">
+                                                    <img src="images/slider_13.svg" alt="">
+                                                    <p class="skill-name">Spring boot</p>
+                                                </div>
+                                            </div>
+                                            <div class="item" style="--position:14;">
+                                                <div class="card shadow-dark">
+                                                    <img src="images/slider_14.svg" alt="">
+                                                    <p class="skill-name">Python</p>
+                                                </div>
+                                            </div>
+                                            <div class="item" style="--position:15;">
+                                                <div class="card shadow-dark">
+                                                    <img src="images/slider_15.svg" alt="">
+                                                    <p class="skill-name">Unity</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                             <div class="row">
                                 <div id="education" style="scroll-margin-top:50px " class="education padd-15">
@@ -174,23 +256,44 @@
                                         <div class="timeline-box padd-15">
                                             <div class="timeline shadow-dark">
                                                 <!-- timeline items -->
-                                                 <div class="timeline-item">
+                                                <div class="timeline-item">
                                                     <div class="circle-dot"></div>
                                                     <h3 class="timeline-date">
                                                         <i class="fa fa-calendar"></i> 2022 - Present
                                                     </h3>
-                                                    <h4 class="timeline-title">Bachelor of Engineering in Software Engineering<br>Saigon University, Vietnam</h4>
-                                                    <p class="timeline-text">Currently a 3rd-year student with a strong foundation in software development, algorithms, and system design. Gained hands-on experience in programming, database management, and software architecture. Developed problem-solving skills through coursework and practical projects, focusing on modern technologies and industry best practices.</p>
-                                                 </div>
-                                                 <!-- timeline items -->
-                                                 <div class="timeline-item">
+                                                    <h4 class="timeline-title">Bachelor of Engineering in Software
+                                                        Engineering<br>Saigon University, Vietnam</h4>
+                                                    <p class="timeline-text">Currently a 3rd-year student with a
+                                                        strong
+                                                        foundation in software development, algorithms, and system
+                                                        design. Gained hands-on experience in programming, database
+                                                        management, and software architecture. Developed
+                                                        problem-solving
+                                                        skills through coursework and practical projects, focusing
+                                                        on
+                                                        modern technologies and industry best practices.</p>
+                                                </div>
+                                                <!-- timeline items -->
+                                                <div class="timeline-item">
                                                     <div class="circle-dot"></div>
                                                     <h3 class="timeline-date">
                                                         <i class="fa fa-calendar"></i> 2019 - 2022
                                                     </h3>
-                                                    <h4 class="timeline-title">Specialized in English<br>Thoai Ngoc Hau High School for the Gifted, Vietnam</h4>
-                                                    <p class="timeline-text">Studied in the English Specialized Program, developing strong linguistic, analytical, and critical thinking skills. Engaged in advanced English language studies, literature analysis, and effective communication. Participated in academic competitions, extracurricular activities, and teamwork projects to enhance problem-solving and leadership abilities.</p>
-                                                 </div>
+                                                    <h4 class="timeline-title">Specialized in English<br>Thoai Ngoc
+                                                        Hau
+                                                        High School for the Gifted, Vietnam</h4>
+                                                    <p class="timeline-text">Studied in the English Specialized
+                                                        Program,
+                                                        developing strong linguistic, analytical, and critical
+                                                        thinking
+                                                        skills. Engaged in advanced English language studies,
+                                                        literature
+                                                        analysis, and effective communication. Participated in
+                                                        academic
+                                                        competitions, extracurricular activities, and teamwork
+                                                        projects
+                                                        to enhance problem-solving and leadership abilities.</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -207,17 +310,24 @@
                                                         <i class="fa fa-calendar"></i> 2022
                                                     </h3>
                                                     <h4 class="timeline-title">IELTS Certification - Band 5.5</h4>
-                                                    <p class="timeline-text">Achieved IELTS 5.5, demonstrating a solid foundation in English proficiency across listening, reading, writing, and speaking. This certification has enhanced my ability to comprehend technical documents, research papers, and online resources, allowing me to learn new technologies and concepts more effectively.</p>
-                                                 </div>
+                                                    <p class="timeline-text">Achieved IELTS 5.5, demonstrating a
+                                                        solid
+                                                        foundation in English proficiency across listening, reading,
+                                                        writing, and speaking. This certification has enhanced my
+                                                        ability to comprehend technical documents, research papers,
+                                                        and
+                                                        online resources, allowing me to learn new technologies and
+                                                        concepts more effectively.</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div> 
+                            </div>
                         </div>
                     </div>
                 </div>
-             </section>
+            </section>
             <!-- About Section End -->
             <!-- Project Section Start -->
             <section class="portfolio section" id="portfolio">
@@ -241,8 +351,10 @@
                                         <h3>Game: TheDungeonNomad</h3>
                                         <p>A python based dungeon crawler game using Pygame libs</p>
                                         <div class="portfolio-buttons">
-                                            <a href="https://github.com/capricorn8626/TheDungeonNomad" target="_blank" class="btn">GitHub</a>
-                                            <a href="https://example.com/demo1" target="_blank" class="btn">Live Demo</a>
+                                            <a href="https://github.com/capricorn8626/TheDungeonNomad" target="_blank"
+                                                class="btn">GitHub</a>
+                                            <a href="https://example.com/demo1" target="_blank" class="btn">Live
+                                                Demo</a>
                                         </div>
                                     </div>
                                 </div>
@@ -256,8 +368,10 @@
                                         <h3>WindowApplication: POS-System</h3>
                                         <p>A POS-system developed using Java, FlatLaf and MySQL </p>
                                         <div class="portfolio-buttons">
-                                            <a href="https://github.com/capricorn8626/convenience_store" target="_blank" class="btn">GitHub</a>
-                                            <a href="https://example.com/demo2" target="_blank" class="btn">Live Demo</a>
+                                            <a href="https://github.com/capricorn8626/convenience_store" target="_blank"
+                                                class="btn">GitHub</a>
+                                            <a href="https://example.com/demo2" target="_blank" class="btn">Live
+                                                Demo</a>
                                         </div>
                                     </div>
                                 </div>
@@ -269,10 +383,32 @@
                                     <img src="images/portfolio3.png" alt="">
                                     <div class="portfolio-overlay">
                                         <h3>Website: E-commercial website</h3>
-                                        <p>A E-commercial website developed using HTML,CSS,JS,MySQL and PHP, using MVC as a software design pattern</p>
+                                        <p>A E-commercial website developed using HTML,CSS,JS,MySQL and PHP, using
+                                            MVC
+                                            as a software design pattern</p>
                                         <div class="portfolio-buttons">
-                                            <a href="https://github.com/capricorn8626/e-commercial-website" target="_blank" class="btn">GitHub</a>
-                                            <a href="https://example.com/demo3" target="_blank" class="btn">Live Demo</a>
+                                            <a href="https://github.com/capricorn8626/e-commercial-website"
+                                                target="_blank" class="btn">GitHub</a>
+                                            <a href="https://example.com/demo3" target="_blank" class="btn">Live
+                                                Demo</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item autoShow padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio4.png" alt="">
+                                    <div class="portfolio-overlay">
+                                        <h3>Website: Music-app</h3>
+                                        <p>A Spotify-clone website using reactjs for front-end and django for back-end
+                                        </p>
+                                        <div class="portfolio-buttons">
+                                            <a href="https://github.com/tiendoha/spotify_project" target="_blank"
+                                                class="btn">GitHub</a>
+                                            <a href="https://example.com/demo2" target="_blank" class="btn">Live
+                                                Demo</a>
                                         </div>
                                     </div>
                                 </div>
@@ -283,7 +419,7 @@
             </section>
             <!-- Project Section End -->
             <!-- Contact Section Start -->
-             <section class="contact section" id="contact">
+            <section class="contact section" id="contact">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -292,83 +428,138 @@
                     </div>
                     <h3 class="contact-title">Do You Have Any Question ?</h3>
                     <h4 class="contact-sub-title">I 'M AT YOUR SERVICES</h4>
-                    
+
                     <div class="row autoShow">
                         <div class="contact-form padd-15">
-                            <div class="row">
-                                <div class="form-item col-6 padd-15">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Name">
+                            <form id="contact-form">
+                                <div class="row">
+                                    <div class="form-item col-6 padd-15">
+                                        <div class="form-group">
+                                            <input type="text" id="name" name="name" class="form-control"
+                                                placeholder="Name" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-item col-6 padd-15">
+                                        <div class="form-group">
+                                            <input type="email" id="email" name="email" class="form-control"
+                                                placeholder="Email" required>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="form-item col-6 padd-15">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Email">
+                                <div class="row">
+                                    <div class="form-item col-12 padd-15">
+                                        <div class="form-group">
+                                            <input type="text" id="subject" name="subject" class="form-control"
+                                                placeholder="Subject" required>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Subject">
+                                <div class="row">
+                                    <div class="form-item col-12 padd-15">
+                                        <div class="form-group">
+                                            <textarea name="message" class="form-control" id="msg" placeholder="Message"
+                                                required></textarea>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <div class="form-group">
-                                       <textarea name="" class="form-control" id="" placeholder="Message"></textarea>
+                                <div class="row">
+                                    <div class="form-item col-12 padd-15">
+                                        <div class="form-group center">
+                                            <button type="submit" class="btn">
+                                                <span class="default-text">Send Message</span>
+                                                <span class="loading-text"
+                                                    style="display: none;">Sending...</span></button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <div class="form-group center">
-                                        <button type="submit" class="btn">Send Message</button>
-                                    </div>
-                                </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                     <div class="row autoShow">
                         <!-- Contact info item start -->
-                         <div class="contact-info-item padd-15">
+                        <div class="contact-info-item padd-15">
                             <div class="icon"><i class="fa fa-phone"></i></div>
                             <h4>Call Us On</h4>
                             <p>+84 817 868 253</p>
-                         </div>
+                        </div>
                         <!-- Contact info item end -->
                         <!-- Contact info item start -->
                         <div class="contact-info-item padd-15">
                             <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
                             <h4>Office</h4>
                             <p>Vietnam</p>
-                         </div>
+                        </div>
                         <!-- Contact info item end -->
                         <!-- Contact info item start -->
                         <div class="contact-info-item padd-15">
                             <div class="icon"><i class="fa fa-envelope"></i></div>
                             <h4>Email</h4>
                             <p>pvt8626@gmail.com</p>
-                         </div>
+                        </div>
                         <!-- Contact info item end -->
                         <!-- Contact info item start -->
                         <div class="contact-info-item padd-15">
                             <div class="icon"><i class="fa fa-globe-europe"></i></div>
                             <h4>My Website</h4>
                             <p>www.domain.com</p>
-                         </div>
+                        </div>
                         <!-- Contact info item end -->
                     </div>
                 </div>
-             </section>
+            </section>
             <!-- Contact Section End -->
-          </div>
-         <!-- Main Content End -->
+        </div>
+        <!-- Main Content End -->
+
+
+
     </div>
     <!-- Main Container End -->
     <!-- JS Files -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
+        integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        // Khởi tạo EmailJS
+        (function () {
+            emailjs.init("u4PCIhX7utmYcm9ve"); // Public Key của bạn
+        })();
+
+        // Xử lý form
+        const form = document.querySelector('#contact-form');
+        if (form) {
+            const submitBtn = form.querySelector('.btn');
+            const defaultText = submitBtn.querySelector('.default-text');
+            const loadingText = submitBtn.querySelector('.loading-text');
+
+            form.addEventListener('submit', function (event) {
+                event.preventDefault();
+
+                // Thay "Send Message" bằng "Sending..."
+                submitBtn.classList.add('loading');
+                defaultText.style.display = 'none';
+                loadingText.style.display = 'inline';
+
+                emailjs.sendForm('service_3e64sha', 'template_ef9j8vs', this)
+                    .then(() => {
+                        showToast('Message sent successfully!', 'success');
+                        this.reset();
+                    }, (error) => {
+                        showToast('Failed to send message: ' + error.text, 'error');
+                    })
+                    .finally(() => {
+                        // Khôi phục "Send Message"
+                        submitBtn.classList.remove('loading');
+                        defaultText.style.display = 'inline';
+                        loadingText.style.display = 'none';
+                    });
+            });
+        } else {
+            console.error('Form not found!');
+        }
+    </script>
 </body>
+
 </html>
