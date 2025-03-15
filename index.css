@@ -353,7 +353,7 @@ ul {
 
 .aside .social-icons {
     position: absolute;
-    top: 200px;
+    top: 20%;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
