@@ -13,7 +13,7 @@ Một số kỹ năng của tôi:
 |Web Development (back-end)| Django, Python, PHP, Springboot, Java,...
 |Game Development| Unity, C#, Python, Godot, C, C++,...
 |Tools|Git, GitHub, VSCode, Eclipse, NetBeans,...
-## 📬 Liên hệ
-- 📧 Email: [pvt8262@gmail.com]
-- 🔗  [LinkedIn](https://www.linkedin.com/in/capricorn8626/) | [GitHub](https://github.com/capricorn8626) | [Facebook](https://www.facebook.com/pvt0601/)
+## Liên hệ
+- Email: [pvt8262@gmail.com]
+- [LinkedIn](https://www.linkedin.com/in/capricorn8626/) | [GitHub](https://github.com/capricorn8626) | [Facebook](https://www.facebook.com/pvt0601/)
 ## Hãy xem qua thêm một số những dự án của tôi trên github này nhé. ⬇️
