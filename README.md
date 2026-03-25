@@ -1,11 +1,11 @@
-# 🚀 Phan Viet Toan | capricorn8626 | Software Engineering
+#  Phan Viet Toan | capricorn8626 | Software Engineering
 Chào mừng bạn đến với hồ sơ cá nhân của tôi! Tôi là **Phan Viet Toan**, hiện đang là sinh viên ngành **Kỹ Thuật Phần Mềm**, đam mê công nghệ, lập trình và phát triển game.
 
-## 🎮 Đôi nét về tôi
-- 💻 Đang tìm hiểu học tập về ngành kỹ thuật phần mềm tại trường Đại Học Sài Gòn
-- 🎮 Yêu thích chơi game và làm game
-- 🔍 Luôn muốn học hỏi và khám phá công nghệ mới
-## 📂 Kỹ năng
+## Đôi nét về tôi
+- Đang tìm hiểu học tập về ngành kỹ thuật phần mềm tại trường Đại Học Sài Gòn
+- Yêu thích chơi game và làm game
+- Luôn muốn học hỏi và khám phá công nghệ mới
+## Kỹ năng
 Một số kỹ năng của tôi:
 | Kỹ năng                | Mô tả                          |
 |------------------------|--------------------------------|
